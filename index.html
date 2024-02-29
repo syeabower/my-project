@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Le Wagon - Web Development Sprint</title>
+
+  <!-- Change these Google fonts with your own choice -->
+  <link href="https://fonts.googleapis.com/css?family=Chivo:700|Overpass:400,700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/6582def288.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="header">  
+		<div class="container">
+			<nav>
+				<img src="" class="logo">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+			<div class="header-text">
+		
+				<h1>Hi, I'm Suzanne Yeabower</h1>
+			</div>	
+			
+		</div>
+	</div>
+	<!-------------about-------------->
+	<div id="about">
+		<div class="container">
+			<div class="row">
+				<div class="about-col-1">
+					<img src="images/IMG_2885.JPG">
+				</div>
+				<div class="about-col-2">
+					<h1 class="sub-title">About Me</h1>
+					<p>I'm navigating the fascinating realms of brand management and digital marketing with an effortlessly cool demeanor. Originating from the USA, I've gracefully transitioned my studies to the beautiful city of Bordeaux, France, pursuing a Masters in Marketing. Possessing a curiosity for creative digital strategies and a keen eye for all things design, I'm dedicated to unraveling the nuances of compelling brand narratives. Beyond the marketing realm, I appreciate the finer things in life, like art, music, fashion, handmade items, and strolling through a museam. Picture the girl that stops to smell the roses—that's me! Join me on this sophisticated journey as we infuse a touch of coolness into the world of marketing!</p>
+
+					<div class="tab-titles">
+						<p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+						<p class="tab-links" onclick="opentab('Experience')">Experience</p>
+						<p class="tab-links"onclick="opentab('Education')">Education</p>
+					</div>
+						<div class="tab-contents active-tab" id="Skills">
+							<ul>
+								<li><span>Digital Marketing</span><br>Online Customer Experience Design</li>
+								<li><span>Innovative</span><br>Authentic, dedicated and inspired </li><li><span>Creator</span><br>Digital and handmade crafts with love</li>
+							</ul>
+						</div>
+						
+						<div class="tab-contents" id="Experience">
+							<ul>
+								<li><span>S.Seraphim Creator</span><br>Started small business to host my designs</li>
+								<li><span>Corporate Innovation Project</span><br>Partnered with Panto company to conduct a comprehensive analysis of the French and European markets</li><li><span>Sustainable Marketing Student Project</span><br>Formulated a sustainable innovation for Avril cosmetics brand</li>
+							</ul>
+						</div>
+						<div class="tab-contents" id="Education">
+							<ul>
+								<li><span>2023-current</span><br>Masters of Science in Marketing at Kedge Business School Bordeaux</li>
+								<li><span>2019-2023</span><br>Bachelors of Administration in Finance</li><li><span>2015-2019</span><br>High School Diploma</li>
+							</ul>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!--------------services--------------->
+<div id="services">
+	<div class="container">
+		<h1 class="sub-title">My Services</h1>
+		<div class="services-list">
+			<div>
+				<h2>Designer</h2>
+				<p>I create sustainable fashion designs</p>
+				<a href="#">Learn more</a>
+			</div>
+			<div>
+				<h2>Branding</h2>
+				<p>Curating authentic connections with audiences</p>
+			</div>
+			<div>
+				<h2>Marketing Creator</h2>
+				<p>Crafting compelling narratives and innovative campaigns</p>
+			</div>
+		</div>
+	</div>
+		
+</div>
+<!-------------portfolio----------------->
+<div id="portfolio">
+	<div class="container">
+		<h1 class="sub-title">My Work</h1>
+		<div class="work-list">
+			<div class="work">
+				<img src="images/SS.png">
+				<div class="layer">
+					<h3>S.Seraphim</h3>
+					<p>Jewelry Creation</p>
+				</div>
+			</div>
+			<div class="work">
+				<img src="images/Avril.png">
+				<div class="layer">
+					<h3>Sustainable Vision</h3>
+					<p>Innovation for Avril</p>
+				</div>
+			</div>
+			<div class="work">
+				<img src="images/panto.jpeg">
+				<div class="layer">
+					<h3>International Collaboration</h3>
+					<p>Partnership with French company</p>
+				</div>
+			</div>
+		</div>
+		<a href="#" class="btn"> See more magic</a>
+	</div>
+</div>
+<!-----------------contact--------------->
+<div id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="contact-left">
+				<h1 class="sub-title">Contact Me</h1>
+				<p><i class="fa-regular fa-paper-plane"></i>syeabower@gmail.com</p>
+				<p><i class="fa-solid fa-phone"></i> 33 766084967</p>
+				<div class="social-icons">
+					<a href="https://www.facebook.com/suzanne.yeabower.50/"><i class="fa-brands fa-facebook"></i></a> 
+					<a href="https://www.instagram.com/baby_yeabie?igsh=OGQ5ZDc2ODk2ZA=="><i class="fa-brands fa-instagram"></i></a>
+					<a href="https://www.linkedin.com/in/suzanne-yeabower/"><i class="fa-brands fa-linkedin"></i></a>
+				</div>
+				<a href="images/mycvpdf" download class="btn btn2">Download CV</a>	
+			</div>
+			
+				
+			<div class="contact-right"></div>
+				<form>
+					<input type="text" name="name" placeholder="Your Name" required="">
+					<input type="email" name="email" placeholder="Your Email" required>
+					<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+					<button type="submit" class="btn btn2">Submit</button>
+				</form>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+<script type="text/javascript">
+	var	tablinks=document.getElementsByClassName("tab-links");
+	var	tabcontents=document.getElementsByClassName("tab-contents");
+	function opentab(tabname){
+		for(tablink of tablinks){
+			tablink.classList.remove("active-link");
+		}
+		for(tabcontent of tabcontents){
+			tabcontent.classList.remove("active-tab");
+		}
+		event.currentTarget.classList.add("active-link");
+		document.getElementById(tabname).classList.add("active-tab");
+	}
+</script>
+
+  <!-- Banner section -->
+
+  <!-- Cards section -->
+
+  <!-- Footer section -->
+</body>
+</html>
